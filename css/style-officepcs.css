@@ -170,6 +170,32 @@
     text-decoration: none;
 }
 
+/* FOOTER */
+
+footer {
+    height: 128px;
+    background-color: #242424;
+}
+
+.footer-info-box {
+    padding-top: 36px;
+    padding-left: 384px;
+}
+
+.footer-info-anchor-box a {
+    color: gray;
+    padding-right: 24px;
+    font-size: 18px;
+    font-family: sf-pro-light;
+    text-decoration: none;
+}
+
+.footer-info-box p {
+    color: white;
+    padding-top: 24px;
+    font-family: sf-pro-medium;
+}
+
 /* EFFEKTS */
 
 @keyframes fadein {
