@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style-products.css">
+    <link rel="stylesheet" href="../fontawsome/css/all.css">
+    <title>CPU for YOU</title>
+    <link rel="icon" href="../img/Logo.png" type="image/png" sizes="128x128">
+</head>
+
+<body>
+    
+    <header>
+        <nav class="topnav">
+            <ul>
+                <li><p>CPU for YOU</p></li>
+                <li><a href="../index.html">HOME</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">OFFICE PCS <i class="fas fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="../officepc1.html">500€ OFFICE PC</a>
+                            <a href="../officepc2.html">800€ OFFICE PC</a>
+                            <a href="../officepc3.html">1000€ OFFICE PC</a>
+                            <a href="../officepcs.html">Alle Office PCs</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">GAMING PCS <i class="fas fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="../gamingpc1.html">800€ GAMING PC</a>
+                            <a href="../gamingpc2.html">1000€ GAMING PC</a>
+                            <a href="../gamingpc3.html">1200€ GAMING PC</a>
+                            <a href="../gamingpc4.html">1500€ GAMING PC</a>
+                            <a href="../gamingpc5.html">1800€ GAMING PC</a>
+                            <a href="../gamingpc6.html">2000€ GAMING PC</a>
+                            <a href="../gamingpcs.html">Alle Gaming PCs</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">WORKSTATIONS <i class="fas fa-angle-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="workstation1.html">1000€ WORKSTATION</a>
+                            <a href="workstation2.html">1500€ WORKSTATION</a>
+                            <a href="workstation3.html">2000€ WORKSTATION</a>
+                            <a href="../workstations.html">Alle Workstations</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="products">
+        <div class="products-container">
+
+            <div class="products-child-pictures">
+                <div class="products-child-pictures-big-pics">
+                    <img src="pic1big.png">
+                </div>
+                <div class="products-child-pictures-little-pics">
+                    <a target="_blank" href="pic2big.png"><img src="pic2.png"></a>
+                    <a target="_blank" href="pic3big.png"><img src="pic3.png"></a>
+                </div>
+            </div>
+
+            <div class="products-child-text">
+                
+                <div class="products-child-text-komponenten">
+                <h1>1500€ Workstation</h1>
+                <hr>
+                <h3>Die Komponenten</h3>
+                <p>CPU: AMD Ryzen Threadripper 1920X</p>
+                <p>Grafikkarte: Nvidia RTX 3060</p>
+                <p>Motherboard: ASRock X399 Phantom Gaming 6</p>
+                <p>RAM: 64GB G.Skill Aegis</p>
+                <p>Speicher: Crucial MX500 500GB</p>
+                <p>Netzteil: Seasonic Focus GX 750W</p>
+                <p>Gehäuse: be quiet! Pure Base 500</p>
+                </div>
+
+                <button class="accordion"><i class="fab fa-paypal"></i> PayPal</button>
+                <div class="panel">
+                    <p>Sie können bei uns mit PayPal zahlen. Wir übernehmen zusatzkosten.</p>
+                    <a href="#"><button>Weiter</button></a>
+                </div>
+
+                <button class="accordion"><i class="fab fa-cc-visa"></i> Visa</button>
+                <div class="panel">
+                    <p>Sie können bei uns mit Visa zahlen. Wir übernehmen zusatzkosten.</p>
+                    <a href="#"><button>Weiter</button></a>
+                </div>
+
+                <button class="accordion"><i class="far fa-credit-card"></i> Überweisung</button>
+                <div class="panel">
+                    <p>Sie können bei uns mit Visa zahlen. Wir übernehmen zusatzkosten.</p>
+                    <a href="#"><button>Weiter</button></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-info-box">
+            <div class="footer-info-anchor-box">
+                <a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Impressum</a>
+            </div>
+            <p>©2019 - 2021 cpuforyou.de - Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+    </script>
+
+</body>
+
+</html>

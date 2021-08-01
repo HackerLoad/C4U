@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+.topnav {
+    background-color: #242424;
+    height: 60px;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.topnav li {
+    float: left;
+}
+
+.topnav li p {
+    font-family: sf-pro-medium;
+    color: white;
+    font-size: 21px;
+    padding-top: 17px;
+    padding-left: 596px;
+}
+  
+.topnav li a {
+    display: block;
+    font-size: 18px;
+    color: #cfcfcf;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-family: sf-pro-light;
+}
+  
+.topnav li a:hover {
+    color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    color: #cfcfcf;
+    padding: 19px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-family: sf-pro-light;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #242424;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.topnav .dropdown-content a {
+    float: none;
+    color: #cfcfcf;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* OFFICE-PCS */
+
+#officepcs {
+    height: 969px;
+}
+
+.grid-officepcs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.grid-officepcs-pc1 h1 {
+    font-family: sf-pro-medium;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.grid-officepcs-pc1 h2 {
+    font-family: sf-pro-light;
+    font-style: normal;
+    color: #242424;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.grid-officepcs-pc1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-officepcs-pc1 h3 {
+    padding-top: 64px;
+    text-align: center;
+    font-family: sf-pro-medium;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 27px;
+}
+
+.grid-officepcs-pc1 p {
+    padding-top: 12px;
+    text-align: center;
+    font-family: sf-pro-light;
+    color: #242424;
+    font-size: 18px;
+}
+
+.grid-officepcs-pc1 h4 {
+    font-family: sf-pro-medium;
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.grid-officepcs-pc1 hr {
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 24px;
+}
+
+.grid-officepcs-pc1 button {
+    height: 36px;
+    width: 81px;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-family: sf-pro-medium;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.grid-officepcs-pc1 a {
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    height: 128px;
+    background-color: #242424;
+}
+
+.footer-info-box {
+    padding-top: 36px;
+    padding-left: 384px;
+}
+
+.footer-info-anchor-box a {
+    color: gray;
+    padding-right: 24px;
+    font-size: 18px;
+    font-family: sf-pro-light;
+    text-decoration: none;
+}
+
+.footer-info-box p {
+    color: white;
+    padding-top: 24px;
+    font-family: sf-pro-medium;
+}
+
+/* EFFEKTS */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: "sf-pro-medium";
+    src: url("C:/Users/hacke/Desktop/C4U/fonts/SFProText-Medium.ttf");
+}
+
+@font-face {
+    font-family: "sf-pro-light";
+    src: url("C:/Users/hacke/Desktop/C4U/fonts/SFProText-Light.ttf");
+}
