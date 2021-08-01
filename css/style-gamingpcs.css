@@ -164,6 +164,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .grid-officepcs-pc1 a {
