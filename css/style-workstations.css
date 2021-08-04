@@ -208,10 +208,10 @@ footer {
 
 @font-face {
     font-family: "sf-pro-medium";
-    src: url("C:/Users/hacke/Desktop/C4U/fonts/SFProText-Medium.ttf");
+    src: url("../fonts/SFProText-Medium.ttf");
 }
 
 @font-face {
     font-family: "sf-pro-light";
-    src: url("C:/Users/hacke/Desktop/C4U/fonts/SFProText-Light.ttf");
+    src: url("../fonts/SFProText-Light.ttf");
 }
